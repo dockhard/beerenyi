@@ -9,7 +9,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 class PocketbaseService {
   static PocketbaseService get to => Get.find();
-  final _url = 'https://pb.intra.tvk.lol';
+  final _url = 'https://pb.tvk.lol';
   late PocketBase _client;
   late AuthStore _authStore;
   late String _temporaryDirectory;
